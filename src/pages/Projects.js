@@ -1,5 +1,17 @@
+
+import Project from "../components/Project";
+
 const Projects = () => {
-    return (<div>Projects</div>);
+    return (<div>
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+    </div>);
 }
 
 export default Projects;
