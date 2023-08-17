@@ -1,14 +1,64 @@
 
 import Project from "../components/Project";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Projects = () => {
     return (<div>
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={"Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit 'great-souled, venerable'), first applied to him in South Africa in 1914, is now used throughout the world."} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+                    `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+                    `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+                    `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+                    `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+                    `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+
+
+
 
 
     </div>);
