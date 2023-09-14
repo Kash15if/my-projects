@@ -1,10 +1,18 @@
 let data = [{
-    a: 1,
-    b: 2
+    id: "",
+    title: "",
+    videoURL: "",
+    description: "",
+    repo: "",
+    webpage: "",
 },
 {
-    p: 1,
-    q: 2
+    id: "",
+    title: "",
+    videoURL: "",
+    description: "",
+    repo: "",
+    webpage: "",
 }]
 
 export default data;
