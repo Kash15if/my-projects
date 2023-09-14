@@ -17,7 +17,7 @@ const Projects = ({ title, videoURL, description, repo, webpage }) => {
             </video>
 
             <Accordion >
-                <Accordion.Item >
+                <Accordion.Item eventKey="0">
                     <Accordion.Header>{"Description"}</Accordion.Header>
                     <Accordion.Body> {description}
                     </Accordion.Body>
