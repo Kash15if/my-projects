@@ -4,7 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import data from "../data/projectDetails"
+
 const Projects = () => {
+
+    data.forEach(item => console.log(item))
     return (<div>
 
 
