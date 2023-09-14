@@ -1,5 +1,9 @@
 import { Container } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
+
+const imagesDir = require.context("../assets/videos/", true);
+
+
 const Projects = ({ title, videoURL, description, repo, webpage }) => {
     return (
 
@@ -8,7 +12,8 @@ const Projects = ({ title, videoURL, description, repo, webpage }) => {
             <h2 style={{ textAlign: "left" }}>{title}</h2>
 
             <video width="540" height="310" controls>
-                <source src="AllProjects.mp4" type="video/mp4" />
+                <source src={imagesDir(`./${videoURL}`)}
+                    type="video/mp4" />
             </video>
 
             <Accordion >

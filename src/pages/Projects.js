@@ -8,7 +8,7 @@ const Projects = () => {
     return (<div>
 
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <Project title={"dfghmj"} videoURL="AllProjects.mp4" description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -18,7 +18,7 @@ const Projects = () => {
                     `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
 
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <Project title={"dfghmj"} videoURL="AllProjects.mp4" description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -28,7 +28,7 @@ const Projects = () => {
                     `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
 
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <Project title={"dfghmj"} videoURL="AllProjects.mp4" description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -38,7 +38,7 @@ const Projects = () => {
                     `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
 
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <Project title={"dfghmj"} videoURL="AllProjects.mp4" description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -48,7 +48,7 @@ const Projects = () => {
                     `} repo={""} webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
 
 
-        <Project title={"dfghmj"} videoURL={"https://www.youtube.com/embed/tgbNymZ7vqY"} description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <Project title={"dfghmj"} videoURL="AllProjects.mp4" description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in
