@@ -1,43 +1,79 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #F3F4F6 !important;
-}
-.main-container{
-    padding: 2rem;
-    border-radius: 1rem;
-    margin: 1.5rem 0rem 0rem 2rem;
-    background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+/* ProjectStyle.css */
+.main-container {
     display: flex;
     justify-content: space-between;
-
-}
-.main-header{
-    font-size: 1rem;
-}
-.sub-header{
-    font-size: 0.8rem;
-    margin-bottom: 0.8rem;
-    margin-top: 0.7rem;
-}
-.video-section{
-    border: 1px solid #e1d8d8;
-    border-radius: 1rem;
-
-}
-.left-section{
-    padding-right: 2rem;
-    padding-left: 1rem;
-
-}
-.accordion-button{
-    padding: 0.8rem 0.8rem !important;
-}
-.flex-container {
-    display: grid;
-    justify-content: space-between;
-    background-color: white;
-    margin-top: 1.2rem;
-    row-gap: 0.8rem;
-}
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style for odd components (left is on the right) */
+  .odd {
+    flex-direction: row-reverse;
+  }
+  
+  /* Style for even components (left is on the left) */
+  .even {
+    flex-direction: row;
+  }
+  
+  .left-section {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .main-header {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sub-header {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .flex-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    flex: 6;
+  }
+  
+  .video-section {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Styling for the Accordion component */
+  /* Add your own styles here */
+  
+  @media screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+    }
+  
+    .left-section,
+    .right-section {
+      flex: 1; /* Both sections take 100% width vertically */
+      padding: 10px; /* Adjust padding as needed */
+    }
+  
+    .left-section {
+      order: 2; /* Make sure left section appears below the right section */
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  

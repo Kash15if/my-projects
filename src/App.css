@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #1e1e1e;
+  color: #6afe80;
 }
 
 .App-logo {
@@ -39,8 +41,7 @@
 
 .flex-container {
   display: flex;
-  justify-content: space-between;
-  background-color: DodgerBlue;
+  justify-content: space-around;
 }
 
 .flex-container > div {
