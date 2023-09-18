@@ -1,24 +1,30 @@
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import "./ProjectStyle.css";
 
 const imagesDir = require.context("../assets/videos/", true);
 
-const Projects = ({ title, videoURL, description, repo, webpage, index }) => {
+const Projects = ({
+  title,
+  videoURL,
+  description,
+  repo,
+  webpage,
+  index,
+  subTitle,
+}) => {
   const isOdd = index % 2 === 1; // Check if the component is odd
 
   return (
-    <Container>
+    <div className="OneProject">
       <div className={`main-container ${isOdd ? "odd" : "even"}`}>
         <div className="left-section">
           <h2 className="main-header" style={{ textAlign: "left" }}>
             {title}
           </h2>
-          <h2 className="sub-header" style={{ textAlign: "left" }}>
-            Sub Header : Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s,
-          </h2>
+          <p className="sub-header" style={{ textAlign: "left" }}>
+            {subTitle}
+          </p>
           <div className="flex-container">
             <a
               href={repo}
@@ -51,7 +57,7 @@ const Projects = ({ title, videoURL, description, repo, webpage, index }) => {
           <Accordion.Body> {description}</Accordion.Body>
         </Accordion.Item>
       </Accordion>
-    </Container>
+    </div>
   );
 };
 

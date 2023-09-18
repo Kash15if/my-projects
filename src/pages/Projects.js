@@ -10,15 +10,17 @@ const Projects = () => {
   return (
     <div>
       {data.map((item, index) => (
-        <Project
-          title={item.title}
-          videoURL={item.videoURL}
-          description={item.description}
-          repo={item.repo}
-          webpage={item.webpage}
-          index={index}
-          subTitle={item.subTitle}
-        />
+        <div id={item.id}>
+          <Project
+            title={item.title}
+            videoURL={item.videoURL}
+            description={item.description}
+            repo={item.repo}
+            webpage={item.webpage}
+            index={index}
+            subTitle={item.subTitle}
+          />
+        </div>
       ))}
     </div>
   );
