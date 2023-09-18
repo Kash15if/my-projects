@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import data from "../data/projectDetails";
 
 const Projects = () => {
-  data.forEach((item) => console.log(item));
+  // data.forEach((item) => console.log(item));
   return (
     <div>
       {data.map((item, index) => (

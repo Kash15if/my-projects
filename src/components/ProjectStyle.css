@@ -1,79 +1,114 @@
 /* ProjectStyle.css */
 .main-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  border: 1.5px solid #e1ebeb;
+  margin: 2.5rem 6rem;
+  padding: 15px;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+}
+
+/* Style for odd components (left is on the right) */
+.odd {
+  flex-direction: row-reverse;
+}
+
+/* Style for even components (left is on the left) */
+.even {
+  flex-direction: row;
+}
+
+.left-section {
+  flex: 3;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+
+.main-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-header {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.flex-container {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 8;
+}
+
+.video-section {
+  width: 100%;
+  height: auto;
+}
+
+/* Styling for the Accordion component */
+/* Add your own styles here */
+
+@media screen and (max-width: 768px) {
+  .content-section {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
   }
-  
-  /* Style for odd components (left is on the right) */
-  .odd {
-    flex-direction: row-reverse;
-  }
-  
-  /* Style for even components (left is on the left) */
-  .even {
-    flex-direction: row;
-  }
-  
-  .left-section {
-    flex: 4;
-    padding: 20px;
-  }
-  
-  .main-header {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .sub-header {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  
-  .flex-container {
-    margin-top: 20px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    text-decoration: none;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+
+  .left-section,
   .right-section {
-    flex: 6;
+    flex: 1; /* Both sections take 100% width vertically */
+    padding: 10px; /* Adjust padding as needed */
   }
-  
-  .video-section {
-    width: 100%;
-    height: auto;
+
+  .left-section {
+    order: 2; /* Make sure left section appears below the right section */
   }
-  
-  /* Styling for the Accordion component */
-  /* Add your own styles here */
-  
-  @media screen and (max-width: 768px) {
-    .main-container {
-      flex-direction: column; /* Stack sections vertically on smaller screens */
-    }
-  
-    .left-section,
-    .right-section {
-      flex: 1; /* Both sections take 100% width vertically */
-      padding: 10px; /* Adjust padding as needed */
-    }
-  
-    .left-section {
-      order: 2; /* Make sure left section appears below the right section */
-    }
-  
-    /* Add more responsive styles as needed */
+
+  .main-container {
+    border: 1px solid #e1ebeb;
+    margin: 1.5rem 0.5rem;
   }
-  
+
+  /* Add more responsive styles as needed */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.accordion-button,
+.accordion-body {
+  background-color: #1e1e1e !important;
+  color: #97c3bc !important;
+}

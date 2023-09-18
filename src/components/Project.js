@@ -1,10 +1,9 @@
-// import { Container } from "react-bootstrap";
-import { Accordion } from "react-bootstrap";
 import "./ProjectStyle.css";
+import { Accordion } from "react-bootstrap";
 
 const imagesDir = require.context("../assets/videos/", true);
 
-const Projects = ({
+const Project = ({
   title,
   videoURL,
   description,
@@ -16,8 +15,8 @@ const Projects = ({
   const isOdd = index % 2 === 1; // Check if the component is odd
 
   return (
-    <div className="OneProject">
-      <div className={`main-container ${isOdd ? "odd" : "even"}`}>
+    <div className="main-container">
+      <div className={`content-section ${isOdd ? "odd" : "even"}`}>
         <div className="left-section">
           <h2 className="main-header" style={{ textAlign: "left" }}>
             {title}
@@ -45,20 +44,23 @@ const Projects = ({
             </a>
           </div>
         </div>
+
         <div className="right-section">
           <video className="video-section" controls>
             <source src={imagesDir(`./${videoURL}`)} type="video/mp4" />
           </video>
         </div>
       </div>
-      <Accordion dark>
-        <Accordion.Item eventKey="0">
-          <Accordion.Header>{"Description"}</Accordion.Header>
-          <Accordion.Body> {description}</Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
+      <div className="desc-section">
+        <Accordion>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>{"Description"}</Accordion.Header>
+            <Accordion.Body> {description}</Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      </div>
     </div>
   );
 };
 
-export default Projects;
+export default Project;
