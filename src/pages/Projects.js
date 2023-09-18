@@ -9,87 +9,17 @@ const Projects = () => {
   data.forEach((item) => console.log(item));
   return (
     <div>
-      <Project
-        title={"dfghmj"}
-        videoURL="AllProjects.mp4"
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-                    `}
-        repo={""}
-        webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"}
-        index={0}
-      />
-
-      <Project
-        title={"dfghmj"}
-        videoURL="AllProjects.mp4"
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-                    `}
-        repo={""}
-        webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"}
-        index={1}
-      />
-
-      <div id="ab">
+      {data.map((item, index) => (
         <Project
-          title={"dfghmj"}
-          videoURL="GroceryList.mp4"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-                    `}
-          repo={""}
-          webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"}
-          index={2}
+          title={item.title}
+          videoURL={item.videoURL}
+          description={item.description}
+          repo={item.repo}
+          webpage={item.webpage}
+          index={index}
+          subTitle={item.subTitle}
         />
-      </div>
-
-      <Project
-        title={"dfghmj"}
-        videoURL="AllProjects.mp4"
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-                    `}
-        repo={""}
-        webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"}
-        index={3}
-      />
-
-      <Project
-        title={"dfghmj"}
-        videoURL="AllProjects.mp4"
-        description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-                    `}
-        repo={""}
-        webpage={"https://www.youtube.com/embed/tgbNymZ7vqY"}
-        index={4}
-      />
+      ))}
     </div>
   );
 };
