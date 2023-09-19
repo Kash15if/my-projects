@@ -1,5 +1,6 @@
 import "./ProjectStyle.css";
 import { Accordion } from "react-bootstrap";
+import React from "react";
 
 const imagesDir = require.context("../assets/videos/", true);
 
@@ -55,7 +56,17 @@ const Project = ({
         <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>{"Description"}</Accordion.Header>
-            <Accordion.Body> {description}</Accordion.Body>
+            <Accordion.Body>
+              <p>
+                {description.split("\n\n").map((paragraph, index) => (
+                  <React.Fragment key={index}>
+                    {paragraph}
+                    <br />
+                    <br />
+                  </React.Fragment>
+                ))}
+              </p>
+            </Accordion.Body>
           </Accordion.Item>
         </Accordion>
       </div>

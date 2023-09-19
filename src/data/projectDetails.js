@@ -12,9 +12,8 @@ let data = [
     id: "ccomp",
     title: "Custom Components",
     videoURL: "CustomComponents.mp4",
-    subTitle: `A collection of custom React components that are frequently used but were not readily
-    available or easily customizable. A collection of custom React components that are frequently used but were not readily
-    available or easily customizable.`,
+    subTitle: `This is a customizable React component collection featuring dynamic tables, 3D carousels, pop-ups, and more. 
+    It's expandable to include diagrams and organization charts.`,
     description: `A collection of custom React components that are frequently used but were not readily
     available or easily customizable. The components include dynamic and responsive tables with features such as sorting,
     filtering, CRUD operations, Excel upload and download, dynamic and responsive carousels or sliders with a 3D view
@@ -28,7 +27,9 @@ let data = [
     id: "mbs",
     title: "Meal Booking System",
     videoURL: "Meal_Admin_User.mp4",
-    subTitle: "",
+    subTitle: `This responsive web app streamlines advanced meal booking in various settings. Users can book meals, 
+    track records, and view billing, while administrators manage meals, expenses,
+     and generate reports with ease, including one-click email billing and Excel downloads.`,
     description: `The responsive full-stack web application is designed for advanced meal booking in
     hostels, offices, or commercial spaces. It offers a range of features, including the ability for users to book meals for the
     next seven days, track their meal records, view billing information, and access an intuitive dashboard. Administrators
@@ -44,24 +45,14 @@ let data = [
     id: "oep",
     title: "Online Exam Portal",
     videoURL: "OnlineExamDark.mp4",
-    subTitle: "",
-    description: `This is an online exam portal provides users with the ability to take exams conveniently.
-    The platform allows administrators to add questions using Excel, ensuring efficient question management. Additionally, the portal includes a feature that tracks user activities, enabling administrators to monitor user behavior, such
-    as tab switching or any other actions. This tracking feature provides administrators with valuable insights and helps
+    subTitle: `The online exam portal allows easy exam-taking and efficient question management with Excel for administrators. It also tracks user activities, offers detailed performance data, and supports filters for top-performing students and mark cutoffs for effective monitoring and management.`,
+    description: `The online exam portal offers a user-friendly and convenient platform for exam takers. Users can easily complete exams through the system, which includes essential features such as a timer and a smooth interface. Administrators are empowered with an efficient question management system that allows them to import and organize questions using Excel, simplifying the process of creating and updating exam content. Additionally, the portal incorporates a user activity tracking feature, enabling administrators to monitor behaviors like tab switching, providing valuable insights into user engagement and potential exam irregularities.
+
+
+    Moreover, the platform provides comprehensive result reporting capabilities. Administrators can access detailed data on student performance, including marks earned on a topic-wise and total marks basis. This feature enables educators and administrators to gain a deeper understanding of individual and overall student achievements. To further enhance their analysis, administrators can apply filters to the results, such as identifying the top-performing students or establishing cutoffs for topic-wise and total marks, facilitating data-driven decision-making and better management of exam outcomes.
     maintain exam integrity.`,
     repo: "https://github.com/Kash15if/custom-components",
     webpage: "https://react-online-exam-portal.vercel.app/",
-  },
-  {
-    id: "fer",
-    title: "Flat Expense Record(Split App)",
-    videoURL: "FlatExpenseRecord.mp4",
-    subTitle: "",
-    description: `A React-based expense tracker with Firebase backend, similar to Split
-    app. It features dark and light mode options, allowing users to manage expenses, track multiple users, and generate
-    insightful reports.`,
-    repo: "https://github.com/Kash15if?tab=repositories&q=fla&type=&language=&sort=",
-    webpage: "https://react-flat-expense-record.vercel.app/",
   },
   //   {
   //     id: "sp",
@@ -76,71 +67,132 @@ let data = [
   //     webpage: "https://study-planner-phi.vercel.app/dashboard",
   //   },
   {
-    id: "glb",
-    title: "Grocery List Builder",
-    videoURL: "GroceryList.mp4",
-    subTitle: "",
-    description: `A React-based expense tracker with Firebase backend, similar to Split app. It features
-    dark and light mode options, allowing users to manage expenses, track multiple users, and generate insightful reports..`,
-    repo: "https://github.com/Kash15if/react-grocery-list-firebase",
-    webpage: "https://react-grocery-list-firebase.vercel.app/",
+    id: "cov19",
+    title: "Covid-19 tracker",
+    videoURL: "covid19status.mp4",
+    subTitle: `This COVID-19 tracking app, built with Vue.js, Bootstrap, and various APIs, provides data at global, 
+    national, state, and district levels, includes a precautions page, and offers interactive data visualization through charts.`,
+    description: `This COVID-19 tracking application provides comprehensive data on a global, national, 
+    state, and district level, enabling users to stay informed about daily case statistics. Alongside this data-rich functionality, 
+    the application features a dedicated "Precautions" page and boasts full responsiveness.
+
+
+    The application is built using Vue.js, Bootstrap, Vuex, Chart.js, Mapbox GL, and utilizes open-source 
+    COVID-19 APIs. Its user-friendly interface facilitates data visualization through interactive charts,
+     allowing users to easily analyze and track new cases, recoveries, and fatalities.`,
+    repo: "https://github.com/Kash15if/covid19status",
+    webpage: "https://covid19status.vercel.app/",
   },
   {
     id: "sal",
     title: "Snake and Ladder",
     videoURL: "SnakeAndLadder.mp4",
     subTitle: "",
-    description: `A Full Stack real time muiltiplayer snake and ladder game built using HTML, CSS and
-    Vue.js for Front End and Firebase Firestore for realtime database`,
+    description: `This Full Stack multiplayer Snake and Ladder game is designed for real-time 
+    entertainment. Its front-end is developed using HTML, CSS, and Vue.js, providing a visually 
+    engaging and interactive user interface. The game leverages Firebase Firestore for real-time 
+    database functionality, ensuring a synchronized experience for all players.
+
+
+    In this game, ladders are represented by +X in green, while snakes are indicated by -X in red, 
+    adding an exciting twist to the classic game. Two users can participate, taking turns alternately, 
+    making strategic moves to climb ladders and avoid snakes as they progress through the game board. This
+     multiplayer setup enhances the competitive and social aspects of the game, making it a dynamic and 
+     engaging gaming experience.`,
     repo: "https://github.com/Kash15if/Vue_snake-ladder",
     webpage: "https://vue-snake-ladder.vercel.app/",
   },
   {
-    id: "cov19",
-    title: "Covid-19 tracker",
-    videoURL: "covid19status.mp4",
-    subTitle: "",
-    description: `A responsive web-app made in Vue.js with HTML, CSS, Bootstrap as front-end, used library
-    such as Map-box GL, Chart.js also used Covid19India and covid19 API for real-time data.`,
-    repo: "https://github.com/Kash15if/covid19status",
-    webpage: "https://covid19status.vercel.app/",
+    id: "fer",
+    title: "Flat Expense Record(Split App)",
+    videoURL: "FlatExpenseRecord.mp4",
+    subTitle: `A React-based expense tracker with Firebase backend, offering dark and light modes, multi-user support, 
+    and detailed expense reports, akin to the Split app.`,
+    description: `The React-based expense tracker, similar in functionality to the Split app, 
+    offers a range of powerful features. Users can personalize their experience by choosing between 
+    dark and light modes. It simplifies expense management, allowing users to efficiently organize their 
+    financial data. Moreover, it supports multiple users or contributors, making collaborative expense tracking 
+    seamless. The application provides detailed reports, including pie charts that visually represent expenses by 
+    member, providing valuable insights into expenditure distribution. Users can also take advantage of robust 
+    table functionality, including sorting, editing, and filtering options for effective data management. 
+    Furthermore, the tool offers a comprehensive financial overview, helping users identify who is in gain 
+    or loss and facilitating the calculation of payments between members, streamlining financial planning and settlements.`,
+    repo: "https://github.com/Kash15if?tab=repositories&q=fla&type=&language=&sort=",
+    webpage: "https://react-flat-expense-record.vercel.app/",
   },
-  {
-    id: "pfolio",
-    title: "Portfolio",
-    videoURL: "PortfolioBootstrap.mp4",
-    subTitle: "",
-    description: `My portfolio website built in Bootstrap, Hyml, CSS`,
-    repo: "https://github.com/Kash15if/Bootstrap-Portfolio",
-    webpage: "https://portfolio.kashif.world/",
-  },
+
   {
     id: "allp",
     title: "All Projects",
     videoURL: "AllProjects.mp4",
-    subTitle: "",
-    description: `All Projects is being shown in the cards using github public API`,
+    subTitle: `This dynamic portfolio website utilizes the GitHub public API to display my GitHub projects via 
+      interactive cards, providing easy access to project pages and repository code. Created with Vue.js, 
+      it features a user-friendly design crafted with HTML and CSS to effectively showcase my skills and work.`,
+    description: `This project  dynamically showcases all of my GitHub projects through cards, utilizing the
+     GitHub public API for real-time data retrieval. Each card features buttons that, upon clicking, redirect
+      users to the hosted page of the respective project. Additionally, clicking on the card itself will lead 
+      users to the GitHub repository for more in-depth exploration and engagement with the project's codebase. 
+      This website provides a comprehensive overview of my work and facilitates easy navigation to both hosted 
+      projects and their corresponding repositories. It is a a Vue.js-based portfolio website showcasing your
+       work and skills, thoughtfully crafted using HTML and CSS.`,
     repo: "https://github.com/Kash15if/projects-githubApi",
     webpage: "https://myprojects.vercel.app/",
   },
-  //   {
-  //     id: "bport",
-  //     title: "Portfolio",
-  //     videoURL: "PortfolioBlue.mp4",
-  //     subTitle: "",
-  //     description: `My portfolio website built in Bootstrap, Hyml, CSS`,
-  //     repo: "https://github.com/Kash15if/projects-githubApi",
-  //     webpage: "https://myprojects.vercel.app/",
-  //   },
-  //   {
-  //     id: "allp",
-  //     title: "Portfolio",
-  //     videoURL: "PortfolioGreen.mp4",
-  //     subTitle: "",
-  //     description: `My portfolio website built in Bootstrap, Hyml, CSS`,
-  //     repo: "https://github.com/Kash15if/projects-githubApi",
-  //     webpage: "https://myprojects.vercel.app/",
-  //   },
+  {
+    id: "glb",
+    title: "Grocery List Builder",
+    videoURL: "GroceryList.mp4",
+    subTitle: `This React-based Grocery List Builder app uses Firebase Firestore for real-time functionality. 
+    It allows users to effortlessly add, edit, 
+    delete, and mark items as purchased.`,
+    description: `The Grocery List Builder app is a real-time solution crafted with React, leveraging Firebase 
+    Firestore as its robust backend. This app seamlessly syncs with your grocery needs, allowing you to add, edit, 
+    or delete items on the fly. You can also conveniently mark items as purchased in real time, ensuring that your 
+    shopping list is always up-to-date and tailored to your needs.`,
+    repo: "https://github.com/Kash15if/react-grocery-list-firebase",
+    webpage: "https://react-grocery-list-firebase.vercel.app/",
+  },
+
+  {
+    id: "pfolio1",
+    title: "Portfolio 1",
+    videoURL: "PortfolioBootstrap.mp4",
+    subTitle: `My portfolio website is constructed using Bootstrap, HTML, and CSS, 
+    showcasing my educational background, professional experience, projects, skills, resume, 
+    and contact information.`,
+    description: `My portfolio website is constructed using Bootstrap, HTML, and CSS, showcasing my 
+    educational background, professional experience, projects, skills, resume, and contact information.`,
+    repo: "https://github.com/Kash15if/Bootstrap-Portfolio",
+    webpage: "https://portfolio.kashif.world/",
+  },
+
+  {
+    id: "bport",
+    title: "Portfolio 2",
+    videoURL: "PortfolioBlue.mp4",
+    subTitle: `My responsive portfolio website, constructed with HTML, CSS, and Vue.js, 
+    incorporates fullpage.js for slider-based navigation.`,
+    description: `My portfolio website is a responsive and visually appealing platform crafted using HTML, CSS, 
+    and Vue.js. It showcases my work in an interactive manner and employs fullpage.js to create a smooth 
+    slider-based navigation system. This navigation feature enhances the user experience by allowing seamless 
+    scrolling through different sections of the website, effectively presenting my portfolio and skills. The
+     use of HTML and CSS ensures a sleek and professional design, while Vue.js adds interactivity and dynamic 
+     content to make the website engaging and user-friendly, making it a compelling showcase of my work and capabilities.`,
+    repo: "https://github.com/Kash15if/projects-githubApi",
+    webpage: "https://myprojects.vercel.app/",
+  },
+  {
+    id: "g-port",
+    title: "Portfolio 3",
+    videoURL: "PortfolioGreen.mp4",
+    subTitle: `My responsive portfolio website, constructed with Bootstrap, HTML, CSS, and Vue.js, utilizes REST and 
+    GitHub APIs, featuring swipe-based navigation through Vue Router.`,
+    description: `My portfolio website is a responsive design created using Bootstrap, HTML, CSS, and Vue.js. 
+    It incorporates REST API and the GitHub API to showcase my projects dynamically. One of its notable features 
+    is swipe-based navigation, which is powered by Vue Router, providing an intuitive and interactive user experience.`,
+    repo: "https://github.com/Kash15if/projects-githubApi",
+    webpage: "https://myprojects.vercel.app/",
+  },
 ];
 
 export default data;
