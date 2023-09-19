@@ -179,7 +179,7 @@ let data = [
      use of HTML and CSS ensures a sleek and professional design, while Vue.js adds interactivity and dynamic 
      content to make the website engaging and user-friendly, making it a compelling showcase of my work and capabilities.`,
     repo: "https://github.com/Kash15if/projects-githubApi",
-    webpage: "https://myprojects.vercel.app/",
+    webpage: "https://vue-greeen-portfolio1.vercel.app/",
   },
   {
     id: "g-port",
@@ -190,8 +190,8 @@ let data = [
     description: `My portfolio website is a responsive design created using Bootstrap, HTML, CSS, and Vue.js. 
     It incorporates REST API and the GitHub API to showcase my projects dynamically. One of its notable features 
     is swipe-based navigation, which is powered by Vue Router, providing an intuitive and interactive user experience.`,
-    repo: "https://github.com/Kash15if/projects-githubApi",
-    webpage: "https://myprojects.vercel.app/",
+    repo: "https://github.com/Kash15if/vue-fullpage.js-Portfolio3",
+    webpage: "https://vue-fullpage-js-green-portfolio3-git-master-kash15if.vercel.app/",
   },
 ];
 
