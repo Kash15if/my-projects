@@ -11,7 +11,7 @@ const Projects = () => {
     <div>
       {data.map((item, index) => (
         <div id={item.id}>
-          <Project
+          {item.videoURL && <Project
             title={item.title}
             videoURL={item.videoURL}
             description={item.description}
@@ -19,7 +19,7 @@ const Projects = () => {
             webpage={item.webpage}
             index={index}
             subTitle={item.subTitle}
-          />
+          />}
         </div>
       ))}
     </div>

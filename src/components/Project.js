@@ -47,9 +47,21 @@ const Project = ({
         </div>
 
         <div className="right-section">
-          <video className="video-section" controls>
+          {/* <video className="video-section" controls>
             <source src={imagesDir(`./${videoURL}`)} type="video/mp4" />
-          </video>
+          </video> */}
+          <div className="video-section">
+
+            <iframe
+              title={title}
+              width="100%"
+              height="320"
+              src={`https://www.youtube.com/embed/${videoURL}`}
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="desc-section">

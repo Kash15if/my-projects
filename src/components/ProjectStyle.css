@@ -63,8 +63,9 @@
 }
 
 .video-section {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin: auto;
 }
 
 /* Styling for the Accordion component */
@@ -90,7 +91,11 @@
     margin: 1.5rem 0.5rem;
   }
 
-  /* Add more responsive styles as needed */
+  .video-section {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
 }
 
 .flex-container {

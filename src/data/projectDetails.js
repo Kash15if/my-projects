@@ -11,7 +11,7 @@ let data = [
   {
     id: "ccomp",
     title: "Custom Components",
-    videoURL: "CustomComponents.mp4",
+    videoURL: "UVuM2EeOk2c",
     subTitle: `This is a customizable React component collection featuring dynamic tables, 3D carousels, pop-ups, and more. 
     It's expandable to include diagrams and organization charts.`,
     description: `A collection of custom React components that are frequently used but were not readily
@@ -26,7 +26,7 @@ let data = [
   {
     id: "mbs",
     title: "Meal Booking System",
-    videoURL: "Meal_Admin_User.mp4",
+    videoURL: "RFqM9BXPzJs",
     subTitle: `This responsive web app streamlines advanced meal booking in various settings. Users can book meals, 
     track records, and view billing, while administrators manage meals, expenses,
      and generate reports with ease, including one-click email billing and Excel downloads.`,
@@ -44,7 +44,7 @@ let data = [
   {
     id: "oep",
     title: "Online Exam Portal",
-    videoURL: "OnlineExamDark.mp4",
+    videoURL: "IBhosO--B9c",
     subTitle: `The online exam portal allows easy exam-taking and efficient question management with Excel for administrators. It also tracks user activities, offers detailed performance data, and supports filters for top-performing students and mark cutoffs for effective monitoring and management.`,
     description: `The online exam portal offers a user-friendly and convenient platform for exam takers. Users can easily complete exams through the system, which includes essential features such as a timer and a smooth interface. Administrators are empowered with an efficient question management system that allows them to import and organize questions using Excel, simplifying the process of creating and updating exam content. Additionally, the portal incorporates a user activity tracking feature, enabling administrators to monitor behaviors like tab switching, providing valuable insights into user engagement and potential exam irregularities.
 
@@ -69,7 +69,8 @@ let data = [
   {
     id: "cov19",
     title: "Covid-19 tracker",
-    videoURL: "covid19status.mp4",
+    videoURL: "",
+    videoURL: "mgYRm-oiTAw",
     subTitle: `This COVID-19 tracking app, built with Vue.js, Bootstrap, and various APIs, provides data at global, 
     national, state, and district levels, includes a precautions page, and offers interactive data visualization through charts.`,
     description: `This COVID-19 tracking application provides comprehensive data on a global, national, 
@@ -86,8 +87,8 @@ let data = [
   {
     id: "sal",
     title: "Snake and Ladder",
-    videoURL: "SnakeAndLadder.mp4",
-    subTitle: "",
+    videoURL: "-PQquJjj21c",
+    subTitle: "Snake and Ladder game with Simple UI",
     description: `This Full Stack multiplayer Snake and Ladder game is designed for real-time 
     entertainment. Its front-end is developed using HTML, CSS, and Vue.js, providing a visually 
     engaging and interactive user interface. The game leverages Firebase Firestore for real-time 
@@ -105,7 +106,7 @@ let data = [
   {
     id: "fer",
     title: "Flat Expense Record(Split App)",
-    videoURL: "FlatExpenseRecord.mp4",
+    videoURL: "hRG_cVXKrbk",
     subTitle: `A React-based expense tracker with Firebase backend, offering dark and light modes, multi-user support, 
     and detailed expense reports, akin to the Split app.`,
     description: `The React-based expense tracker, similar in functionality to the Split app, 
@@ -124,7 +125,7 @@ let data = [
   {
     id: "allp",
     title: "All Projects",
-    videoURL: "AllProjects.mp4",
+    videoURL: "",
     subTitle: `This dynamic portfolio website utilizes the GitHub public API to display my GitHub projects via 
       interactive cards, providing easy access to project pages and repository code. Created with Vue.js, 
       it features a user-friendly design crafted with HTML and CSS to effectively showcase my skills and work.`,
@@ -141,7 +142,7 @@ let data = [
   {
     id: "glb",
     title: "Grocery List Builder",
-    videoURL: "GroceryList.mp4",
+    videoURL: "4mvhcncT80Y",
     subTitle: `This React-based Grocery List Builder app uses Firebase Firestore for real-time functionality. 
     It allows users to effortlessly add, edit, 
     delete, and mark items as purchased.`,
@@ -156,7 +157,7 @@ let data = [
   {
     id: "pfolio1",
     title: "Portfolio 1",
-    videoURL: "PortfolioBootstrap.mp4",
+    videoURL: "JrUTB8mBWxY",
     subTitle: `My portfolio website is constructed using Bootstrap, HTML, and CSS, 
     showcasing my educational background, professional experience, projects, skills, resume, 
     and contact information.`,
@@ -169,7 +170,7 @@ let data = [
   {
     id: "bport",
     title: "Portfolio 2",
-    videoURL: "PortfolioBlue.mp4",
+    videoURL: "",
     subTitle: `My responsive portfolio website, constructed with HTML, CSS, and Vue.js, 
     incorporates fullpage.js for slider-based navigation.`,
     description: `My portfolio website is a responsive and visually appealing platform crafted using HTML, CSS, 
@@ -184,7 +185,7 @@ let data = [
   {
     id: "g-port",
     title: "Portfolio 3",
-    videoURL: "PortfolioGreen.mp4",
+    videoURL: "",
     subTitle: `My responsive portfolio website, constructed with Bootstrap, HTML, CSS, and Vue.js, utilizes REST and 
     GitHub APIs, featuring swipe-based navigation through Vue Router.`,
     description: `My portfolio website is a responsive design created using Bootstrap, HTML, CSS, and Vue.js. 
